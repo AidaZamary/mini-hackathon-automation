@@ -1,0 +1,46 @@
+# Node.js
+node_modules/
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+.pnp/
+.pnp.js
+
+# Cypress
+# Ignore Cypress videos and screenshots generated during tests
+cypress/videos/
+cypress/screenshots/
+
+# Cypress environment variables (VERY IMPORTANT for sensitive data)
+cypress.env.json
+
+# Build artifacts
+dist/
+build/
+.parcel-cache/
+
+# Editor/IDE specific files
+.vscode/
+.idea/
+*.iml
+.DS_Store
+*.sublime-project
+*.sublime-workspace
+
+# Environment variables
+.env
+.env.local
+.env.development.local
+.env.test.local
+.env.production.local
+
+# npm package manager cache
+.npm/
+
+# macOS specific files
+.DS_Store
+
+# Logs
+*.log
+npm-debug.log*
+yarn-debug.log*
