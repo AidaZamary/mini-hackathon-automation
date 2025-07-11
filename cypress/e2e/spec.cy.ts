@@ -1,4 +1,4 @@
-describe('Mini Hackathon - Login Test', () => {
+describe('Mini Hackhathon - Login Test', () => {
     beforeEach(() => {
         cy.loginUser();
     });
