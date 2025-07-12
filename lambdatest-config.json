@@ -1,0 +1,33 @@
+{
+   "lambdatest_auth": {
+      "username": "itsaidazmry",
+      "access_key": "LT_euZC1lh5YfEBsG5iqNhmLe6Jqw5yBiCpIbaGxCwZgTyDCIT"
+   },
+   "browsers": [
+      {
+         "browser": "Electron",
+         "platform": "Windows 10",
+         "versions": [
+            "latest"
+         ]
+      }
+   ],
+   "run_settings": {
+      "reporter_config_file": "base_reporter_config.json",
+      "build_name": "mini-hackathon-automation",
+      "parallels": 1,
+      "specs": "./cypress/e2e/**/*.cy.ts",
+      "test_runner_command": "npx cypress run",
+    "ignore_files": "",
+    "feature_file_support" : false
+,
+"preRunCommands":
+    "npm install --save-dev cypress-mochawesome-reporter",
+      "network": false,
+      "headless": false
+   },
+  "tunnel_settings": {
+		"tunnel": true,
+		"tunnel_name": "LT_Tunnel"
+	}
+}

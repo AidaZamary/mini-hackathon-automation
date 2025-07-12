@@ -9,5 +9,8 @@
     "mochawesome-merge": "^5.0.0",
     "mochawesome-report-generator": "^6.2.0",
     "typescript": "^5.8.3"
-  }
+  },
+  "scripts": {
+  "posttest": "mkdir -p cypress/reports/html/.jsons && cp cypress/reports/mochawesome/*.json cypress/reports/html/.jsons/"
+}
 }
